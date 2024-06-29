@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in into your account</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpelZPn1TgWyL4wnjMjaswHPPCqj2AyCWMQ&s"/>
+</head>
+<style>
+    /* *{
+        box-sizing: border-box;
+        border: 1px solid red;
+    } */
+    body {
+        background-color: antiquewhite;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .container {
+        background-color: whitesmoke;
+        width: 25vw;
+        height: 40vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+        padding: 2% 4% 4% 4%;
+        margin-top: 8%;
+        box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.4) ;
+
+    }
+
+    .head2{
+        position: absolute;
+        top: 149px;
+        left: 40.7%;
+        font-size: 19px;
+        font-weight: 500;
+        font-family: sans-serif;
+        color: grey;
+    }
+
+    .container h2 {
+        margin-top: -2%;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+    }
+
+    input {
+        border: none;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        background-color: whitesmoke;
+        border-bottom: 1px solid black;
+        font-size: 15px;
+        margin-top: -5%;
+    }
+
+    .content1 {
+        margin-top: -4.5%;
+        color: #1b1b1b;
+        font-size: 13px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color: #0067b8;
+        ;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+    }
+    .content1 a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
+    .content2 a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
+    .content2 {
+        margin-top: 2%;
+    }
+
+    .go {
+        text-align: right;
+    }
+
+    .go .btn {
+        text-align: right;
+        padding: 2% 10%;
+        background-color: #00000033;
+        border: none;
+    }
+
+    .go .btn2 {
+        text-align: right;
+        margin-top: 1%;
+        padding: 1.2% 10% 1.9%;
+        background-color: #0067b8;
+        border: none;
+
+    }
+    .go a{
+        color: white;
+    }
+    .go .btn:hover{
+        background-color: gray;
+    }
+    .go .btn:active{
+        transform: scale(0.94,0.94);
+    }
+    .btn3{
+        margin-top: 2%;
+        margin-left: 33.5%;
+        padding-right: 16%;
+        padding-left: 8.9%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        background-color: whitesmoke;
+        border: none;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.4) ;
+    }
+    .btn2:hover{
+        background-color: #076adbf6;
+    }
+    .btn2:active{
+        transform: scale(0.95,0.95);
+    }
+    .po{
+        color: black;
+    }
+    .menu::selection{
+        cursor: crosshair;
+
+    }
+     .ending{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 80%;
+        padding-top: 5.5%;
+        padding-right: 1%;
+     }
+     .btn3:hover{
+        background-color: antiquewhite;
+     }
+     .btn3:active{
+        border: 1px dashed black;
+        background-color: gainsboro;
+     }
+</style>
+
+<body>
+    <div class="container">
+        <p class="main">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKpelZPn1TgWyL4wnjMjaswHPPCqj2AyCWMQ&s"
+                alt="microsoft logo" width="7%" /> <span class="head2">Microsoft</span>
+        <h2>Sign-in</h2>
+        <input type="text" placeholder="Email address ,phoneNumber or skype" required />
+        </p>
+        <p class="content1">
+            No account? <a href="./microsoft creat account.html">Create one!</a>
+        </p>
+        <p class="content2">
+            <a href=""> Can't access your account?</a>
+        </p>
+        <p class="go">
+            <button class="btn">Back</button> <button class="btn2" ><a href="./microsoft sign in password.html">Next</a></button>
+        </p>
+    </div>
+    <div class="final">
+        <button class="btn3"><i class="fa-solid fa-key fa-flip-horizontal" style="color: #1c1c1c;"></i><a href="" class="po"> Sign-in options</a></button>
+    </div>
+    <div class="ending">
+        <p>
+           <a href="">Terms of Use</a>
+        </p>
+        <p>
+            <a href="">Privacy and cookies</a>
+        </p>
+        <p class="menu">
+            <a href="">...</a>
+        <p>    
+    </div>
+</body>
+
+</html>
